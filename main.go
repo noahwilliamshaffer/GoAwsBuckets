@@ -24,6 +24,7 @@ func main() {
 		log.Printf("Couldn't list buckets for your account. Here's why: %v\n", err)
 	} else {
 		buckets = result.Buckets
+		
 	}
 
 	for _, bucket := range buckets {
